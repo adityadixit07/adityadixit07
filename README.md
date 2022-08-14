@@ -9,7 +9,7 @@ adityadixit07/adityadixit07 is a ✨ special ✨ repository because its `README.
 You can click the Preview link to take a look at your changes.
 --->
 <a href="https://www.leetcode.com/adityadixit" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="adityadixit" height="30" width="40" /></a>
-<a hreaf="https://www.interviewbit.com/profile/adityadixit70" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/interviewbit.svg" alt="adityadixit70" height="30" width="40" /></a>
+<a hreaf="https://www.interviewbit.com/profile/adityadixit70" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/inter-view-bit.svg" alt="adityadixit70" height="30" width="40" /></a>
 <a href="https://auth.geeksforgeeks.org/user/adityadixit7054/profile" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/geeks-for-geeks.svg" alt="adityadixit7054/profile" height="30" width="40" /></a>
 </p>
 <h3 align="left">Languages and Tools:</h3>
