@@ -6,6 +6,7 @@
 - 🔭 I’m currently working on **E-commerce Website**
 
 - 🌱 I’m currently learning **MERN and java**
+🌱 I’m intereseted in *Problem Solving**
 
 - 💬 Ask me about **react**
 
