@@ -8,7 +8,7 @@
 - 🌱 I’m currently learning **MERN and java**
 🌱 I’m intereseted in *Problem Solving**
 
-- 💬 Ask me about **react**
+- 💬 Ask me about **react and Java**
 
 - 📫 How to reach me **adityadixit9660@gmail.com**
 
