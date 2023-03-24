@@ -3,9 +3,9 @@
 
 <!-- <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=adityadixit07" alt="adityadixit07" /></a> </p> -->
 
-- 🔭 I’m currently working on **E-commerce Website**
+<!-- - 🔭 I’m currently lea on **E-commerce Website** -->
 
-- 🌱 I’m currently learning **MERN and java**
+- 🌱 I’m currently learning **MERN and JAVA**
 🌱 I’m intereseted in *Problem Solving**
 
 - 💬 Ask me about **react and Java**
