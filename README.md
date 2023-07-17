@@ -6,9 +6,7 @@
 <!-- - 🔭 I’m currently lea on **E-commerce Website** -->
 
 - 🌱 I’m currently learning **MERN and JAVA**
-🌱 I’m intereseted in *Problem Solving**
-
-- 💬 Ask me about **react and Java**
+-🌱 I’m interested in **Problem Solving**
 
 - 📫 How to reach me **adityadixit9660@gmail.com**
 
