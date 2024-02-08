@@ -10,8 +10,10 @@
 
 ### About Me
 
-- Currently working with tech stack **MERN (MongoDB, Express, React, Node.js)** and venturing into **Java & Javascript** with a strong aspiration to join a dynamic team.
-- Passionate about **Problem Solving** and equipped with a foundation in full-stack development.
+- I am proficient in **MERN (MongoDB, Express, React, Node.js)** stack.
+- Dedicated to solving real-world problems with genuine solutions.
+- Highly motivated with a strong determination to achieve goals.
+- Passionate about **Problem Solving** and equipped with good understanding of **Data Structures and Algorithms**.
 
 ---
 
