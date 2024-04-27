@@ -10,7 +10,7 @@
 
 ### About Me
 
-- I am proficient in **MERN (MongoDB, Express, React, Node.js)** stack.
+- Proficient in **MERN (MongoDB, Express, React, Node.js)** stack.
 - Dedicated to solving real-world problems with genuine solutions.
 - Highly motivated with a strong determination to achieve goals.
 - Passionate about **Problem Solving** and equipped with good understanding of **Data Structures and Algorithms**.
