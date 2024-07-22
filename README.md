@@ -5,7 +5,7 @@
   <a href="https://linkedin.com/in/adityakumardixit"><img src="https://img.shields.io/badge/-LinkedIn-0077B5?style=flat&logo=Linkedin&logoColor=white"/></a>
   <a href="mailto:adityadixit9660@gmail.com"><img src="https://img.shields.io/badge/-Email-D14836?style=flat&logo=Gmail&logoColor=white"/></a>
   <a href="https://github.com/adityadixit07"><img src="https://img.shields.io/badge/-GitHub-181717?style=flat&logo=github"/></a>
-  <a href="https://adityadixit.dev"><img src="https://img.shields.io/badge/-Portfolio-4285F4?style=flat&logo=google-chrome&logoColor=white"/></a>
+  <a href="https://adityadixitportfolio.vercel.app"><img src="https://img.shields.io/badge/-Portfolio-4285F4?style=flat&logo=google-chrome&logoColor=white"/></a>
 </p>
 
 ---
@@ -14,11 +14,11 @@
 
 I'm a passionate full stack developer from India 🇮🇳 with a knack for creating robust and scalable web applications. My expertise lies in the MERN stack, and I'm driven by the desire to solve real-world problems through innovative tech solutions.
 
-- 🔭 Currently working on: A blockchain-based supply chain management system
-- 🌱 Learning: GraphQL and AWS services
+- 🔭 Currently working on: A new web based marketplace plateform
+- 🌱 Learning: Nest.js, Next.js, Django and GrpahQL.
 - 👯 Open to collaborate on: Open-source projects and innovative web applications
 - 💬 Ask me about: JavaScript, React, Node.js, or anything related to web development
-- ⚡ Fun fact: I'm an avid chess player and love to solve complex algorithmic puzzles
+- ⚡ Fun fact: I love to solve complex algorithmic puzzles
 
 ---
 
@@ -68,11 +68,6 @@ I'm a passionate full stack developer from India 🇮🇳 with a knack for creat
 
 ---
 
-### 🏆 Achievements
-- 🥇 Won the National Hackathon 2023 for innovative use of AI in healthcare
-- 📝 Published 3 technical articles on Medium with over 10k views
-- 🎓 Completed the "Advanced Web Development" certification from freeCodeCamp
-
 ---
 
 ### 📫 Get in Touch
@@ -81,5 +76,5 @@ I'm always interested in new projects and collaborations. Feel free to reach out
 <p align="center">
   <a href="mailto:adityadixit9660@gmail.com">📧 Email</a> |
   <a href="https://linkedin.com/in/adityakumardixit">💼 LinkedIn</a> |
-  <a href="https://adityadixit.dev">🌐 Portfolio</a>
+  <a href="https://adityadixitportfolio.vercel.app">🌐 Portfolio</a>
 </p>
