@@ -60,9 +60,6 @@ I'm a passionate full stack developer from India 🇮🇳 with a knack for creat
 ### 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=adityadixit07&show_icons=true&theme=radical" alt="GitHub Stats" />
-</p>
-<p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=adityadixit07&theme=radical" alt="GitHub Streak" />
 </p>
 
