@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aditya Kumar Dixit — Resume</title>
+  <style>
+    /* ---- Reset & Base ---- */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --accent: #E05C00;
+      --dark:   #111827;
+      --mid:    #374151;
+      --light:  #6B7280;
+      --rule:   #E5E7EB;
+      --page-w: 780px;
+    }
+
+    body {
+      font-family: 'Georgia', serif;
+      font-size: 14px;
+      line-height: 1.55;
+      color: var(--dark);
+      background: #f4f4f4;
+    }
+
+    /* ---- Page Shell ---- */
+    .page {
+      max-width: var(--page-w);
+      margin: 32px auto;
+      background: #fff;
+      padding: 52px 56px;
+      box-shadow: 0 4px 32px rgba(0,0,0,.10);
+    }
+
+    /* ---- Header ---- */
+    .header { text-align: center; margin-bottom: 24px; }
+
+    .header h1 {
+      font-size: 26px;
+      font-weight: 700;
+      letter-spacing: .5px;
+      color: var(--dark);
+    }
+
+    .header .role {
+      font-size: 13px;
+      color: var(--accent);
+      font-style: italic;
+      margin-top: 2px;
+      font-family: 'Georgia', serif;
+    }
+
+    .contact {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 14px;
+      margin-top: 10px;
+      font-family: 'Courier New', monospace;
+      font-size: 12px;
+      color: var(--mid);
+    }
+
+    .contact a { color: var(--mid); text-decoration: none; }
+    .contact a:hover { color: var(--accent); text-decoration: underline; }
+
+    /* ---- Section ---- */
+    section { margin-top: 22px; }
+
+    .section-title {
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 1.8px;
+      text-transform: uppercase;
+      color: var(--accent);
+      border-bottom: 1.5px solid var(--rule);
+      padding-bottom: 4px;
+      margin-bottom: 14px;
+    }
+
+    /* ---- Summary ---- */
+    .summary p {
+      color: var(--mid);
+      font-size: 13.5px;
+      line-height: 1.65;
+    }
+
+    /* ---- Experience ---- */
+    .entry { margin-bottom: 18px; }
+
+    .entry-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+    }
+
+    .entry-title {
+      font-size: 14.5px;
+      font-weight: 700;
+      color: var(--dark);
+    }
+
+    .entry-meta {
+      font-size: 12px;
+      color: var(--light);
+      font-family: 'Courier New', monospace;
+      white-space: nowrap;
+    }
+
+    .entry-sub {
+      font-size: 12.5px;
+      color: var(--accent);
+      margin-top: 1px;
+      font-style: italic;
+    }
+
+    .entry ul {
+      margin-top: 7px;
+      padding-left: 18px;
+    }
+
+    .entry ul li {
+      margin-bottom: 5px;
+      font-size: 13.5px;
+      color: var(--mid);
+    }
+
+    .entry ul li strong {
+      color: var(--dark);
+      font-weight: 600;
+    }
+
+    /* ---- Skills ---- */
+    .skills-grid {
+      display: grid;
+      grid-template-columns: 130px 1fr;
+      gap: 6px 12px;
+      font-size: 13px;
+    }
+
+    .skill-label {
+      font-weight: 700;
+      color: var(--dark);
+      font-size: 12px;
+    }
+
+    .skill-value { color: var(--mid); }
+
+    /* ---- Projects ---- */
+    .project { margin-bottom: 14px; }
+
+    .project-title {
+      font-weight: 700;
+      font-size: 14px;
+      color: var(--dark);
+    }
+
+    .project-title a {
+      color: var(--dark);
+      text-decoration: none;
+    }
+
+    .project-title a:hover { color: var(--accent); }
+
+    .project p {
+      font-size: 13px;
+      color: var(--mid);
+      margin-top: 3px;
+    }
+
+    /* ---- Print ---- */
+    @media print {
+      body { background: #fff; }
+      .page {
+        margin: 0;
+        padding: 36px 44px;
+        box-shadow: none;
+        max-width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+<div class="page">
+
+  <!-- ===== HEADER ===== -->
+  <header class="header">
+    <h1>Aditya Kumar Dixit</h1>
+    <div class="role">Forward Deployed Engineer · AI Systems · Full-Stack</div>
+    <nav class="contact">
+      <a href="mailto:adityadixit9660@gmail.com">adityadixit9660@gmail.com</a>
+      <span>·</span>
+      <a href="https://linkedin.com/in/adityakumardixit" target="_blank">linkedin.com/in/adityakumardixit</a>
+      <span>·</span>
+      <a href="https://github.com/adityadixit07" target="_blank">github.com/adityadixit07</a>
+      <span>·</span>
+      <a href="https://ai-dev-blogs.vercel.app/" target="_blank">ai-dev-blogs.vercel.app</a>
+    </nav>
+  </header>
+
+  <!-- ===== SUMMARY ===== -->
+  <section class="summary">
+    <div class="section-title">Profile</div>
+    <p>
+      Full-stack engineer at Swiggy with production systems experience serving <strong>100K+ daily users</strong>.
+      I specialize in agentic AI and MCP tooling — multi-step orchestration, schema validation, fallback logic,
+      and structured observability. I solve problems end-to-end: pulling apart configs, tracing production
+      incidents, and building automation that removes entire categories of manual work. Excellent at translating
+      deep technical findings into clear playbooks for non-engineering stakeholders.
+    </p>
+  </section>
+
+  <!-- ===== EXPERIENCE ===== -->
+  <section>
+    <div class="section-title">Experience</div>
+
+    <div class="entry">
+      <div class="entry-header">
+        <span class="entry-title">Swiggy</span>
+        <span class="entry-meta">2024 – Present</span>
+      </div>
+      <div class="entry-sub">Software Development Engineer I &nbsp;·&nbsp; Bangalore, India (Remote-Friendly)</div>
+      <ul>
+        <li>Shipped consumer-facing features to <strong>100K+ daily active users</strong> across web and mobile platforms with zero critical regressions in production.</li>
+        <li>Owned full incident lifecycle — surfaced anomalies via <strong>New Relic</strong> dashboards, isolated root causes in distributed Node.js/NestJS services, and resolved P1s without engineering escalation.</li>
+        <li>Built production-grade <strong>MCP (Model Context Protocol) tooling</strong> with multi-step tool orchestration, structured prompt flows, schema validation, and observability hooks — directly applicable to AI-native automation pipelines.</li>
+        <li>Designed and maintained <strong>REST and GraphQL APIs</strong>; wrote automation scripts in <strong>TypeScript</strong> to eliminate repetitive operational tasks across teams.</li>
+        <li>Collaborated with product and design to translate ambiguous customer-experience gaps into actionable engineering work; closed feedback loops by surfacing systemic issues before they escalated.</li>
+        <li>Instrumented services with <strong>webhooks and Socket.IO</strong> for real-time event pipelines; maintained Redis-backed caching layers to improve response latency under load.</li>
+      </ul>
+    </div>
+
+    <!-- Placeholder for prior role — fill in if applicable -->
+    <!--
+    <div class="entry">
+      <div class="entry-header">
+        <span class="entry-title">Previous Company</span>
+        <span class="entry-meta">20XX – 20XX</span>
+      </div>
+      <div class="entry-sub">Role Title</div>
+      <ul>
+        <li>...</li>
+      </ul>
+    </div>
+    -->
+
+  </section>
+
+  <!-- ===== PROJECTS ===== -->
+  <section>
+    <div class="section-title">Selected Projects</div>
+
+    <div class="project">
+      <div class="project-title">Production MCP Tooling Framework</div>
+      <p>
+        Built a multi-step agentic workflow engine on top of the Model Context Protocol — covering tool calling,
+        state handling, fallback logic, and structured observability. Designed to surface clear signals when
+        automation fires correctly, partially, or fails, enabling fast diagnosis without manual log triage.
+      </p>
+    </div>
+
+    <div class="project">
+      <div class="project-title">
+        <a href="https://ai-dev-blogs.vercel.app/" target="_blank">AI Dev Blog — ai-dev-blogs.vercel.app</a>
+      </div>
+      <p>
+        Technical blog covering TypeScript internals, async patterns, and production agentic AI systems.
+        Audience includes engineers building LLM-integrated tooling; writing practice sharpens ability
+        to turn complex technical concepts into clear, actionable knowledge — a core FDE skill.
+      </p>
+    </div>
+
+    <div class="project">
+      <div class="project-title">Full-Stack MERN / React Native Products</div>
+      <p>
+        End-to-end product development across web (React 19, Next.js 15, Tailwind) and mobile (React Native + Expo).
+        Emphasis on fast, accessible interfaces backed by Node.js/NestJS APIs and PostgreSQL/MongoDB data layers.
+      </p>
+    </div>
+  </section>
+
+  <!-- ===== SKILLS ===== -->
+  <section>
+    <div class="section-title">Technical Skills</div>
+    <div class="skills-grid">
+      <span class="skill-label">Languages</span>
+      <span class="skill-value">TypeScript, JavaScript, Python (scripting & automation)</span>
+
+      <span class="skill-label">AI / Automation</span>
+      <span class="skill-value">MCP (Model Context Protocol), Agentic Workflows, Tool Calling, Prompt Flows, State Handling</span>
+
+      <span class="skill-label">Backend</span>
+      <span class="skill-value">Node.js, NestJS, Express, REST, GraphQL, Socket.IO, Webhooks</span>
+
+      <span class="skill-label">Frontend</span>
+      <span class="skill-value">React 19, Next.js 15, Redux Toolkit, Tailwind CSS</span>
+
+      <span class="skill-label">Mobile</span>
+      <span class="skill-value">React Native (Expo), NativeWind</span>
+
+      <span class="skill-label">Databases</span>
+      <span class="skill-value">PostgreSQL, MongoDB, MySQL, Redis</span>
+
+      <span class="skill-label">Infrastructure</span>
+      <span class="skill-value">AWS (EC2, S3), Docker, GitHub Actions, Vercel</span>
+
+      <span class="skill-label">Observability</span>
+      <span class="skill-value">New Relic, structured logging, distributed tracing</span>
+
+      <span class="skill-label">Testing</span>
+      <span class="skill-value">Jest, React Testing Library, Cypress</span>
+    </div>
+  </section>
+
+  <!-- ===== EDUCATION ===== -->
+  <section>
+    <div class="section-title">Education</div>
+    <div class="entry">
+      <div class="entry-header">
+        <span class="entry-title">[ Your University Name ]</span>
+        <span class="entry-meta">[ Graduation Year ]</span>
+      </div>
+      <div class="entry-sub">B.Tech / B.E. in Computer Science &nbsp;·&nbsp; [ City, India ]</div>
+    </div>
+  </section>
+
+  <!-- ===== WHY FIXIFY (optional cover note — delete before submitting) ===== -->
+  <!--
+  <section>
+    <div class="section-title">Why Fixify</div>
+    <p style="font-size:13px;color:#374151;">
+      I'm already building the kind of tooling Fixify needs internally — production MCP pipelines with
+      multi-step orchestration, observability hooks, and clear failure signals. The FDE role is the
+      natural next step: taking that same thinking into customer environments, extracting tacit knowledge,
+      and hardening automation so it works without a human in the loop. I want to be the first person in
+      this role and set the standard for how it's done.
+    </p>
+  </section>
+  -->
+
+</div>
+</body>
+</html>
